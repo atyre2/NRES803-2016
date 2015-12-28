@@ -9,8 +9,8 @@ latlng: "40.828505,-96.671770"     # fractional latitude and longitude (e.g., "4
 humandate: "Spring semester, 2016"  # human-readable date (e.g., "Feb 17-18, 2020")
 humantime: "Tues 2:00 pm - 4:50 pm"  # human-readable time (e.g., "9:00 am - 4:30 pm")
 startdate: "2016-01-11"  # use YYYY-MM-DD format like "2015-01-01"
-instructor: "Drew Tyre" # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper:     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Drew Tyre"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: []    # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "atyre2@unl.edu"    # contact email address for workshop organizer, such as "grace@hopper.org"
 etherpad:         # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
@@ -51,14 +51,19 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   the pitch.
 -->
 <p>
+  This is an experimental, semester long course on Sampling, Data Management 
+  and Visualization at the University of Nebraska-Lincoln. Any Nebraska University 
+  graduate students may enroll using NRES 898 Special Topics. I will 
+  be relying on materials from <a href="{{site.swc_site}}">Software Carpentry</a>
+  and <a href="http://www.datacarpentry.org">Data Carpentry</a>. The course 
+  is fully on-line, with synchronous help sessions every Tuesday afternoon at 2:00 pm.
+  This hands-on course will introduce the tools and concepts of reproducible research. 
+</p>]
+<p>
   <a href="{{site.swc_site}}">Software Carpentry</a>'s mission
   is to help scientists and engineers get more research done in less
   time and with less pain by teaching them basic lab skills for
-  scientific computing.  This hands-on workshop will cover basic
-  concepts and tools, including program design, version control, data
-  management, and task automation.  Participants will be encouraged to
-  help one another and to apply what they have learned to their own
-  research problems.
+  scientific computing.  
 </p>
 <p align="center">
   <em>
@@ -76,7 +81,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 -->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at graduate students from Nebraska University.
   <strong>You don't need to have any previous knowledge of the tools that will
     be presented at the workshop.</strong>
 </p>
@@ -92,11 +97,12 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
+  My address is {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  Online help sessions will use <a href="https://connect.unl.edu/data-management/">Adobe Connect</a>. 
 </p>
 {% endif %}
 
@@ -108,9 +114,12 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with
   a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>). Participants should also have a USB headset with a microphone
+  in order to participate in the online sessions effectively. The built-in 
+  microphone on a laptop is <em>not</em> sufficient. They are also required to abide by
   Software Carpentry's
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a> and the UNL
+  student <a href="http://stuafs.unl.edu/dos/code">code of conduct</a>.
 </p>
 
 <!--
@@ -144,52 +153,46 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Module 1</h3>
     <table class="table table-striped">
-      <tr> <td>Arrival</td>  <td><a href='{{ site.swc_pre_survey }}{{ site.github.project_title }}'>Pre-workshop Survey</a></td> </tr>
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>Week 1</td>  <td>Setup and introductions</td> </tr>
+      <tr> <td>Week 2</td>  <td>Organizing projects</td> </tr>
+      <tr> <td>Week 3</td>  <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>Week 4</td>  <td>Version control with Git</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Module 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>Dismissal</td>  <td><a href='{{ site.swc_post_survey }}{{ site.github.project_title }}'>Post-workshop Survey</a></td> </tr>
+      <tr> <td>Week 5</td>  <td>Reproducible Research in R</td> </tr>
+      <tr> <td>Week 6</td>  <td>moRe</td> </tr>
+      <tr> <td>Week 7</td>  <td>even moRe</td> </tr>
+      <tr> <td>Week 8</td>  <td>wRapping up</td> </tr>   
     </table>
   </div>
 </div>
 
-<!--
-  ETHERPAD
+<div class="row">
+  <div class="col-md-6">
+    <h3>Module 3</h3>
+    <table class="table table-striped">
+      <tr> <td>Week 9 </td>  <td>Simple random sampling in space and time</td> </tr>
+      <tr> <td>Week 10</td>  <td>Stratified random sampling in space and time</td> </tr>
+      <tr> <td>Week 11</td>  <td>Data organization in spreadsheets, QA/QC</td> </tr>
+      <tr> <td>Week 12</td>  <td>Managing data with SQL</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Module 4</h3>
+    <table class="table table-striped">
+      <tr> <td>Week 13</td>  <td></td> </tr>
+      <tr> <td>Week 14</td>  <td></td> </tr>
+      <tr> <td>Week 15</td>  <td></td> </tr>
+      <tr> <td>Week 16</td>  <td></td> </tr>
+    </table>
+  </div>
+</div>
 
-  At `_misc/etherpad.txt` you will find a template for the etherpad.
-
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop,
-  e.g., '2015-06-10-esu'.
--->
-{% if page.etherpad %}
-<p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-{% endif %}
 
 <hr/>
 
