@@ -19,7 +19,7 @@ The page with the index to all shell lessons, and additional resource links
 * [lesson page](http://swcarpentry.github.io/shell-novice/02-create.html)
 * There are 5 challenges here. 
 
-Challenges are due on Friday of Week 2 \(Jan 23\) at 5 pm. Late assignments will receive 
+Challenges are due on Friday of Week 2 at 5 pm. Late assignments will receive 
 a score of zero unless prior approval is granted. Your answers should be 
 entered into a plain text file. At the top of the file write 
 the week number and your name on one line. Leave a blank line, and type the 

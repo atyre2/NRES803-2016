@@ -29,7 +29,7 @@ The page with the index to all shell lessons, and additional resource links
 * [lesson page](http://swcarpentry.github.io/shell-novice/05-script.html)
 * Do the following challenges: variables in shell scripts, list unique species
 
-Challenges are due on Friday of Week 3 \(Jan 29\) at 5 pm. Late assignments will receive 
+Challenges are due on Friday of Week 3 at 5 pm. Late assignments will receive 
 a score of zero unless prior approval is granted. Your answers should be 
 entered into a plain text file. At the top of the file write 
 the week number and your name on one line. Leave a blank line, and type the 

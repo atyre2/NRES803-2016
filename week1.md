@@ -8,7 +8,7 @@ During this week we will post introductions, setup software, start thinking
 about project organization and begin learning about the Unix Shell. At the end 
 of each lesson page there are "Challenge Questions". They look like this:
 
-![Challenge screenshot](/img/challengeExample.png)
+![Challenge screenshot](img/challengeExample.png)
 
 Each week I will ask you to submit your answers to these challenges to Blackboard. 
 There are no challenges due in Week 1. 
