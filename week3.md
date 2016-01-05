@@ -1,6 +1,8 @@
 ---
 title: NRES 898 Week 3
 layout: page
+root: .
+venue: "University of Nebraska-Lincoln"      # brief name of host site without address (e.g., "Euphoric State University")
 ---
 ## Week 3: Automating tasks with the shell
 

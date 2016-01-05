@@ -1,6 +1,8 @@
 ---
 title: NRES 898 Week 2
 layout: page
+root: .
+venue: "University of Nebraska-Lincoln"      # brief name of host site without address (e.g., "Euphoric State University")
 ---
 ## Week 2: Introducing the shell
 
