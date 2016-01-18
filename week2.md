@@ -7,7 +7,8 @@ venue: "University of Nebraska-Lincoln"      # brief name of host site without a
 ## Week 2: Introducing the shell
 
 The page with the index to all shell lessons, and additional resource links
-[is here](http://swcarpentry.github.io/shell-novice/).
+[is here](http://swcarpentry.github.io/shell-novice/). **The instructions for 
+downloading the data for this weeks lessons are here as well.**
 
 ### Files and directories
 
