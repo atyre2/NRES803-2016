@@ -6,15 +6,15 @@ venue: "University of Nebraska-Lincoln"      # brief name of host site without a
 ---
 ## Week 2: Introducing the shell
 
-The page with the index to all shell lessons, and additional resource links
-[is here](http://swcarpentry.github.io/shell-novice/). **The instructions for 
-downloading the data for this weeks lessons are here as well.**
+The page with the index to all shell lessons, additional resource links and
+the instructions for downloading the data for this weeks lessons
+[is here](http://swcarpentry.github.io/shell-novice/). 
 
 ### Files and directories
 
 * [Video Tutorial](https://youtu.be/rrOk_m2yIbM)
 * [lesson page](http://swcarpentry.github.io/shell-novice/01-filedir.html)
-* There are 5 challenges here.
+* There are 4 challenges here.
 
 ### Creating things
 
