@@ -37,8 +37,8 @@ resources [is here](http://swcarpentry.github.io/git-novice/).
 
 ### Remotes 
 
-* Video Tutorial
-* [Remote repositories](http://swcarpentry.github.io/git-novice/07-github.html)
+* [Remote repositories](http://swcarpentry.github.io/git-novice/07-github.html) and the
+  [Video Tutorial](https://youtu.be/EaQce6ATJu0)
 * Do the GitHub Timestamp challenge on that page.
 
 ### Collaboration and conflicts
