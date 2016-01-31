@@ -22,19 +22,18 @@ resources [is here](http://swcarpentry.github.io/git-novice/).
 
 ### Setup up Git and creating a repository
 
-* Video Tutorial
+* [Video Tutorial](https://youtu.be/n_N0kxGRjbk)
 * [Setup Lesson](http://swcarpentry.github.io/git-novice/02-setup.html)
 * [Create repository Lesson](http://swcarpentry.github.io/git-novice/03-create.html)
 
 ### Tracking changes, exploring the history and ignoring things
 
-* Video Tutorial
-* [Tracking changes](http://swcarpentry.github.io/git-novice/04-changes.html)
-* Do both challenges on the Tracking changes page. On the bio Repository challenge, 
-    paste the results of git diff into your answer file.
-* [Explore the history](http://swcarpentry.github.io/git-novice/05-history.html)
-* Do the Recovering Older Versions of a File challenge.
-* [Ignoring things](http://swcarpentry.github.io/git-novice/06-ignore.html)
+* [Tracking changes](http://swcarpentry.github.io/git-novice/04-changes.html) and
+  the [Video Tutorial](https://youtu.be/nJ5e8fRD8zg). Do both challenges on the Tracking changes page. On the bio Repository challenge, paste the results of git diff into your answer file.
+* [Explore the history](http://swcarpentry.github.io/git-novice/05-history.html) and
+    the [Video Tutorial](https://youtu.be/I_nDUtp6qOM). Do the Recovering Older Versions of a File challenge.
+* [Ignoring things](http://swcarpentry.github.io/git-novice/06-ignore.html) and 
+    the [Video Tutorial](https://youtu.be/Ff9x_4pLNgo). 
 
 ### Remotes 
 
