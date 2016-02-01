@@ -2,6 +2,7 @@
 layout: page
 title: Version Control with Git
 subtitle: Conflicts
+root: .
 minutes: 15
 ---
 > ## Learning Objectives {.objectives}
