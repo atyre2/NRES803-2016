@@ -48,8 +48,8 @@ resources [is here](http://swcarpentry.github.io/git-novice/).
 	to follow along if you have already viewed the tutorials, but you need not
 	have completed this weeks challenges. The readings below contain additional useful
 	background but are also not essential. 
-* [Collaboration reading](http://swcarpentry.github.io/git-novice/08-collab.html)
-* [Resolving conflicts reading](http://swcarpentry.github.io/git-novice/09-conflict.html)
+* [Collaboration reading](08-collab.html)
+* [Resolving conflicts reading](09-conflict.html)
 * Run `git log` in *your* planets directory and copy the results to your 
     Challenge Answers file.
 	
