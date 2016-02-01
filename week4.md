@@ -55,8 +55,11 @@ resources [is here](http://swcarpentry.github.io/git-novice/).
 	 
      ```
 	 git clone https://github.com/atyre2/planets-template.git planets
+	 
      cd planets
+	 
      git remote set-url origin https://github.com/yourusername/planets.git
+	 
      git remote -v
      ```
 	 
