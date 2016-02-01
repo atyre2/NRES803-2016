@@ -51,14 +51,14 @@ resources [is here](http://swcarpentry.github.io/git-novice/).
 * To prepare for this exercise, you will need to do a couple of steps to get a copy
      of the `planets` repository referred to in the exercise. The following assumes you
 	 are in your user directory (or anywhere else you can create files), and if you do 
-	 `ls` it does not show a directory called planets. 
-	 
-```
+	 `ls` it does not show a directory called planets. 	 
+
+
 git clone https://github.com/atyre2/planets-template.git planets  
 cd planets  
 git remote set-url origin https://github.com/yourusername/planets.git  
 git remote -v  
-```
+
  
 This copies the repository from my github to your harddrive, and then 
 changes the remote repository from my github to a repository on your github
@@ -67,6 +67,11 @@ the planets repository is not found. Point your browser to github.com/youruserna
 and add a repository named planets. After that you will be able to `git push origin master`
 from the planets directory and it will push the contents to your remote repository.
 Now you are ready to do the exercises below with a partner. 
+
+In the following, one of you will be the "Owner" and one will be the "Collaborator". If you
+are the collaborator, when you clone the contents of the Owner's repository you 
+should change the name of the directory to planets-OwnersUserName to keep it 
+seperate from your own planets repository.
 
 * [Collaboration reading](http://swcarpentry.github.io/git-novice/08-collab.html)
 * [Resolving conflicts reading](http://swcarpentry.github.io/git-novice/09-conflict.html)
