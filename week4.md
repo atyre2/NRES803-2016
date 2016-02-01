@@ -54,13 +54,10 @@ resources [is here](http://swcarpentry.github.io/git-novice/).
 	 `ls` it does not show a directory called planets. 
 	 
      ```
-	 git clone https://github.com/atyre2/planets-template.git planets
-	 
-     cd planets
-	 
-     git remote set-url origin https://github.com/yourusername/planets.git
-	 
-     git remote -v
+	 git clone https://github.com/atyre2/planets-template.git planets  
+     cd planets  
+	 git remote set-url origin https://github.com/yourusername/planets.git  
+	 git remote -v  
      ```
 	 
 	 This copies the repository from my github to your harddrive, and then 
