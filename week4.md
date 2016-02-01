@@ -59,14 +59,15 @@ cd planets
 git remote set-url origin https://github.com/yourusername/planets.git  
 git remote -v  
 ```
-	 
-	 This copies the repository from my github to your harddrive, and then 
-	 changes the remote repository from my github to a repository on your github
-	 account. If you try pushing to that repository however, you will discover that 
-	 the planets repository is not found. Point your browser to github.com/yourusername 
-	 and add a repository named planets. After that you will be able to `git push origin master`
-     from the planets directory and it will push the contents to your remote repository.
-	 Now you are ready to do the exercises below with a partner. 
+ 
+This copies the repository from my github to your harddrive, and then 
+changes the remote repository from my github to a repository on your github
+account. If you try pushing to that repository however, you will discover that 
+the planets repository is not found. Point your browser to github.com/yourusername 
+and add a repository named planets. After that you will be able to `git push origin master`
+from the planets directory and it will push the contents to your remote repository.
+Now you are ready to do the exercises below with a partner. 
+
 * [Collaboration reading](http://swcarpentry.github.io/git-novice/08-collab.html)
 * [Resolving conflicts reading](http://swcarpentry.github.io/git-novice/09-conflict.html)
 * Run `git log` in *your* planets directory and copy the results to your 
