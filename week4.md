@@ -78,7 +78,10 @@ seperate from your own planets repository.
 * Run `git log` in *your* planets directory and copy the results to your 
     Challenge Answers file.
 	
+### A couple extras
 
+* [Why not use Box/DropBox/Google Drive?](https://youtu.be/Mz9GXmgAAk0)
+* 
 ### Assignment
 
 Challenges are due on Friday of Week 4 \(Feb 5\) at 5 pm. Late assignments will receive 
