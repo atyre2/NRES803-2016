@@ -81,7 +81,8 @@ seperate from your own planets repository.
 ### A couple extras
 
 * [Why not use Box/DropBox/Google Drive?](https://youtu.be/Mz9GXmgAAk0)
-* 
+* [Git and Microsoft Word documents](https://youtu.be/aIKI1ha5zoI)
+
 ### Assignment
 
 Challenges are due on Friday of Week 4 \(Feb 5\) at 5 pm. Late assignments will receive 
