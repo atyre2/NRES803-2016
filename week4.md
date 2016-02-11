@@ -73,6 +73,7 @@ are the collaborator, when you clone the contents of the Owner's repository you
 should change the name of the directory to planets-OwnersUserName to keep it 
 seperate from your own planets repository.
 
+* [Video description of setting up for doing it by yourself](https://youtu.be/KNNCjrX9d2s)
 * [Collaboration reading](http://swcarpentry.github.io/git-novice/08-collab.html)
 * [Resolving conflicts reading](http://swcarpentry.github.io/git-novice/09-conflict.html)
 * Run `git log` in *your* planets directory and copy the results to your 
