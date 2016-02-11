@@ -29,7 +29,7 @@ resources [is here](http://swcarpentry.github.io/git-novice/).
 ### Tracking changes, exploring the history and ignoring things
 
 * [Tracking changes](http://swcarpentry.github.io/git-novice/04-changes.html) and
-  the [Video Tutorial](https://youtu.be/nJ5e8fRD8zg). Do both challenges on the Tracking changes page. On the bio Repository challenge, paste the results of git diff into your answer file.
+  the [Video Tutorial](https://youtu.be/nJ5e8fRD8zg). Do both challenges on the Tracking changes page. On the bio Repository challenge, paste the results of `git diff` into your answer file.
 * [Explore the history](http://swcarpentry.github.io/git-novice/05-history.html) and
     the [Video Tutorial](https://youtu.be/I_nDUtp6qOM). Do the Recovering Older Versions of a File challenge.
 * [Ignoring things](http://swcarpentry.github.io/git-novice/06-ignore.html) and 
@@ -74,8 +74,8 @@ should change the name of the directory to planets-OwnersUserName to keep it
 seperate from your own planets repository.
 
 * [Video description of setting up for doing it by yourself](https://youtu.be/KNNCjrX9d2s)
-* [Collaboration reading](http://swcarpentry.github.io/git-novice/08-collab.html)
-* [Resolving conflicts reading](http://swcarpentry.github.io/git-novice/09-conflict.html)
+* [Collaboration reading](http://swcarpentry.github.io/git-novice/08-collab.html) and a [short video demonstrating that exercise](https://youtu.be/oFmB7x5nbFA).
+* [Resolving conflicts reading](http://swcarpentry.github.io/git-novice/09-conflict.html) and a [short video demonstrating the exercise.](https://youtu.be/F4X1McM47kw)
 * Run `git log` in *your* planets directory and copy the results to your 
     Challenge Answers file.
 	
