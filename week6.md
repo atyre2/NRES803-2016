@@ -10,8 +10,16 @@ As with previous weeks, type your answers into a text file and submit that. You 
 
 ### Introduction to R/RStudio
 
+* [Intro to RStudio](https://youtu.be/FNrCxTSzq6s)
+* [Intro to R](https://youtu.be/WHQuKwBv4YA)
 * [Reading for the Lesson](http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro.html)
-* Do all 4 challenges
+* Do all 4 challenges, and submit the output of the following R commands in your text file:
+
+```
+ls() # show me the contents of your workspace
+history(20) # show me the last 20 lines of code executed
+installed.packages() # show me that you've got the right packages installed! 
+```
 
 ### Project management with RStudio
 
