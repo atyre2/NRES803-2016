@@ -37,6 +37,9 @@ installed.packages() # show me that you've got the right packages installed!
 
 ### Data Structures
 
+* [Video on Data types and vectors](https://youtu.be/vCX6hnx4dEE)
+* [Video with more Vectors and Factors](https://youtu.be/TOoQoysT9is)
+* [Video on Matrices and Lists](https://youtu.be/HOp6SY5tvxw)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1.html)
 * For challenge 1, copy the code you used to create and test the three types of vectors into your answer file.
 * Do challeges 2, 3 and 4.
