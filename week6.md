@@ -10,8 +10,9 @@ As with previous weeks, type your answers into a text file and submit that. You 
 
 ### Introduction to R/RStudio
 
-* [Intro to RStudio](https://youtu.be/FNrCxTSzq6s)
-* [Intro to R](https://youtu.be/WHQuKwBv4YA)
+* [Video for Intro to RStudio](https://youtu.be/FNrCxTSzq6s)
+* [Video for Intro to R](https://youtu.be/WHQuKwBv4YA)
+* [Short video on comparing floating point numbers](https://youtu.be/a4NLV680uuo)
 * [Reading for the Lesson](http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro.html)
 * Do all 4 challenges, and submit the output of the following R commands in your text file:
 
@@ -23,12 +24,14 @@ installed.packages() # show me that you've got the right packages installed!
 
 ### Project management with RStudio
 
+* [Video for project management](https://youtu.be/ahcX9XZE1s8)
 * [Reading for the Lesson](http://swcarpentry.github.io/r-novice-gapminder/02-project-intro.html)
 * Do the Creating a self-contained project challenge, Challenge 1, and Challenge 2. Nothing to turn in, but you need all of those done for the rest of the lessons to work.
 * Ignore the tip to use the ProjectTemplate package; it is an interesting idea that isn't mature enough yet to use. 
 
 ### Seeking Help
 
+* [Video for getting help](https://youtu.be/F7Z94CqKzzI)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/03-seeking-help.html) 
 * Do both challenges -- turn in as a text file. 
 
