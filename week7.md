@@ -26,11 +26,26 @@ For this weeks Challenges I want something a little different. By all means do t
 * [Video on transformations and statistics](https://youtu.be/jtaIvtvlGIQ)
 * [Video on faceting and themes](https://youtu.be/DB0kVWnk724)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2.html)
+* There is an error in the video and reading -- the code for changing the legend name is incorrect. The correct code for making the plot is below.
+
+```{r}
+ggplot(gapminder,
+       aes(x = year, y = lifeExp)) + 
+  geom_line(aes(color = continent)) + 
+  facet_wrap(~country) + 
+  xlab("Year") + 
+  ylab("Life Expectancy") + 
+  scale_colour_discrete(name="Continent") +
+  theme(axis.text.x = element_blank(), 
+        axis.ticks.x = element_blank())
+ggsave("graphs/lifebyyearbycountry.png")
+```
 
 ### Vectorization
 
 * [Video on vectorizing]()
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/09-vectorisation.html)
+* The solutions for Challege 2 on that page use base graphics, not ggplot2. 
 
 
 
