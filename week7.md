@@ -28,7 +28,7 @@ For this weeks Challenges I want something a little different. By all means do t
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2.html)
 * There is an error in the video and reading -- the code for changing the legend name is incorrect. The correct code for making the plot is below.
 
-```{r}
+```R
 ggplot(gapminder,
        aes(x = year, y = lifeExp)) + 
   geom_line(aes(color = continent)) + 
