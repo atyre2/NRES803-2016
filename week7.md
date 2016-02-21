@@ -43,7 +43,7 @@ ggsave("graphs/lifebyyearbycountry.png")
 
 ### Vectorization
 
-* [Video on vectorizing]()
+* [Video on vectorizing](https://youtu.be/xLTXFAttV7o)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/09-vectorisation.html)
 * The solutions for Challege 2 on that page use base graphics, not ggplot2. 
 
