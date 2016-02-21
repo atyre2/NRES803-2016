@@ -1,5 +1,5 @@
 ---
-title: NRES 898 Week 4
+title: NRES 898 Week 6
 layout: page
 root: .
 venue: "University of Nebraska-Lincoln"      # brief name of host site without address (e.g., "Euphoric State University")
