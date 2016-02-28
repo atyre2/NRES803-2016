@@ -40,7 +40,7 @@ See [the bottom of this page](#assignment) for this weeks Challenge. By all mean
 
 The file for this weeks assignment will be a commented R script. The file should be saved with a name like `yourlastname_week8.R`, and uploaded as an attachment. At the top of the file write a comment \(start the line with `#`\) with the week number and your name on one line. If none of that makes sense, go watch the start of [the video for subsetting vectors](https://youtu.be/LZB3x6hNZ9M). 
 
-Download [this dataset of average temperatures by county in Nebraska](_misc/NE_county_30yr_avg_temp.csv) into your data subdirectory. Make another subdirectory called `output`. Write code to do the following:
+Download [this dataset of average temperatures by county in Nebraska](assets/NE_county_30yr_avg_temp.csv) into your data subdirectory. Make another subdirectory called `output`. Write code to do the following:
 
 1. Read in the dataset, and convert it to a long format data frame. Don't forget to load any packages you need using `library()` at the top of your script.
 2. Use `ddply()` with an anonymous function, **OR** `dplyr` verbs to create a dataframe with the average annual temperature for each county. 
