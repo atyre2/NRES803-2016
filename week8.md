@@ -12,17 +12,17 @@ See [the bottom of this page](#assignment) for this weeks Challenge. By all mean
 
 * [Video on defining a function](https://youtu.be/Gs8x-3G6K14)
 * [Video on scope and return values](https://youtu.be/ArN19Ou0U-U)
-* [Video on pass by value]
+* [Video on pass by value](https://youtu.be/Ouopr7OSWHQ)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/07-functions.html)
 
 ### Writing data
 
-* [Video on writing data to files]()
+* [Video on writing data to files](https://youtu.be/NY4-Top_zC0)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/11-writing-data.html)
 
 ### Split - apply - combine 
 
-* [Video about split - apply - combine]()
+* [Video about split - apply - combine](https://youtu.be/XPFf4_yf7YQ)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/12-plyr.html)
 
 ### Split - apply - combine and other data manipulation the dplyr way
