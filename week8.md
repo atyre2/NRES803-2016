@@ -33,7 +33,7 @@ See [the bottom of this page](#assignment) for this weeks Challenge. By all mean
 
 ### Manipulating data from long to wide and back again
 
-The reading refers to a dataframe called `gap_wide`, which can be [downloaded here](assets/gap_wide.csv). 
+The reading refers to a dataframe called `gap_wide`, which can be [downloaded here](assets/gap-wide.csv). Save it in your data subdirectory, and use `gap_wide <- read.csv("data/whatevernameyouused.csv")` to read it in to the workspace. 
 
 * [Video about long to wide and back]()
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/14-tidyr.html)
