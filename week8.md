@@ -27,11 +27,13 @@ See [the bottom of this page](#assignment) for this weeks Challenge. By all mean
 
 ### Split - apply - combine and other data manipulation the dplyr way
 
-* [Video about dplyr select & filter]()
-* [Video about summarize & group_by]()
+* [Video about dplyr select, filter & mutate](https://youtu.be/aKHNwgnmpO0)
+* [Video about summarize & group_by](https://youtu.be/IbiHzLsKc50)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/13-dplyr.html)
 
 ### Manipulating data from long to wide and back again
+
+The reading refers to a dataframe called `gap_wide`, which can be [downloaded here](assets/gap_wide.csv). 
 
 * [Video about long to wide and back]()
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/14-tidyr.html)
@@ -42,7 +44,7 @@ The file for this weeks assignment will be a commented R script. The file should
 
 Download [this dataset of average temperatures by county in Nebraska](assets/NE_county_30yr_avg_temp.csv) into your data subdirectory. Make another subdirectory called `output`. Write code to do the following:
 
-1. Read in the dataset, and convert it to a long format data frame. Don't forget to load any packages you need using `library()` at the top of your script.
+1. Read in the dataset, and convert it to a long format data frame. The result will have three columns: County, month, and avgTemp. Don't forget to load any packages you need using `library()` at the top of your script.
 2. Use `ddply()` with an anonymous function, **OR** `dplyr` verbs to create a dataframe with the average annual temperature for each county. 
 3. Write out that dataframe to a csv file called `yourlastname_week8_avgtemp.csv` in a subdirectory called `output`
 4. Make a line plot of temperature by month with a seperate line for each county. Save it into a png file in the graphs subdirectory called `yourlastname_week8_tempplot.png`. \(hint: use aes(group=County) somewhere\)
