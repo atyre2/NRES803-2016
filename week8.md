@@ -31,11 +31,15 @@ See [the bottom of this page](#assignment) for this weeks Challenge. By all mean
 * [Video about summarize & group_by](https://youtu.be/IbiHzLsKc50)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/13-dplyr.html)
 
+### EXTRA: using git pull to sync a local repository with a remote
+
+We've done a great deal of cloning repositories, but not so much "pulling". [Here is a short \(~3 minutes\) video](https://youtu.be/ZBNpuxNITYo) of me using git pull inside RStudio to update a project.
+
 ### Manipulating data from long to wide and back again
 
 The reading refers to a dataframe called `gap_wide`, which can be [downloaded here](assets/gap-wide.csv). Save it in your data subdirectory, and use `gap_wide <- read.csv("data/whatevernameyouused.csv")` to read it in to the workspace. 
 
-* [Video about long to wide and back]()
+* [Video about long to wide and back](https://youtu.be/NeSbrvUIYHc)
 * [Reading for the lesson](http://swcarpentry.github.io/r-novice-gapminder/14-tidyr.html)
 
 ### Assignment
