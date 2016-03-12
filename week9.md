@@ -58,7 +58,7 @@ Make another subdirectory called `graphs`. Write code to do the following:
 2.  Make a scatter plot of X15N vs. Age with a different color for each tooth. Add a smoothing curve to it for each tooth. Save it into a png file in the graphs subdirectory called `yourlastname_week9_toothplot_1.png`. 
 3.  Repeat 2, but instead of coloring each tooth differently, use `facet_wrap(~Tooth)`. Save it into a png file in the graphs subdirectory called `yourlastname_week9_toothplot_2.png`.
 
-I should be able to run your script from the main directory of the project created in week 6 using `source("code/yourlastname_week9.R")` from a clean start of R. To test your code to make sure it works without errors, first click on the Session menu, and choose `Restart R`. Then open your file and click the `source` button in the top right corner. This will load your file and run it; any output to the console is suppressed. Check the date and time of the saved image file to make sure the script ran correctly. 
+I should be able to run your script from the main directory of the project created in week 9 using `source("code/yourlastname_week9.R")` from a clean start of R. To test your code to make sure it works without errors, first click on the Session menu, and choose `Restart R`. Then open your file and click the `source` button in the top right corner. This will load your file and run it; any output to the console is suppressed. Check the date and time of the saved image file to make sure the script ran correctly. 
  
 This challenge is due on Friday of Week 9 \(Mar 11\) at 5 pm. Late assignments will receive 
 a score of zero unless prior approval is granted.  
