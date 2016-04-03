@@ -24,13 +24,14 @@ This week's videos and exercises are based on educational materials from the [Da
 There are good ways to put your data in a spreadsheet. Hadley Wickham \(author of dplyr and ggplot2\) calls these "tidy data".
 
 * [Video with DataONE examples of untidy and tidy data](https://youtu.be/41XhdFMKA3E)
-* [Video on using Excel tools to validate data]()
+* [Video on tools to validate data](https://youtu.be/ym0ARDJyKtU)
+* [Video demo of using data validation in Excel](https://youtu.be/sNSPPlLdRf8)
 * [One page handout on tidy data and validation](https://www.dataone.org/sites/all/documents/L04_DataEntryManipulation_Handout_FINAL.pdf) 
 * [Hadley Wickham's Tidy data paper](http://vita.had.co.nz/papers/tidy-data.pdf)
 
 ### Quality Assurance / Quality Control for data
 
-* [Video on QA/QC]()
+* [Video on QA/QC](https://youtu.be/0tHH_VuRJ0k)
 * [One page handout](https://www.dataone.org/sites/all/documents/L05_DataQualityControlAssurance_Handout_FINAL.pdf)
 
 ### Assignment
