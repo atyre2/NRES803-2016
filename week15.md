@@ -43,7 +43,7 @@ Warning! The second challenge on this page is *hard*. Don't wrestle with it too 
 
 ### Extra practice (optional!)
 
-* [Downloading and using a database from the command line]()
+* [Downloading and using a database from the command line](https://youtu.be/adre7d2t0Pg)
 * [Extra readings and challenges](http://swcarpentry.github.io/sql-novice-survey/index.html)
 
 ### Assignment
