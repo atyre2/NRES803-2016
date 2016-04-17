@@ -22,13 +22,13 @@ This week's videos and exercises are based on educational materials from [DataCa
 ### Basic Queries
 
 * [What is a Query?](https://youtu.be/uK_LHHbTNkU)
-* [More complex queries]()
+* [More complex queries](https://youtu.be/o1ema8tWv8M)
 * [Reading and challenges](http://www.datacarpentry.org/sql-ecology-lesson/01-sql-basic-queries.html)
+* [Video with challenge solutions](https://youtu.be/dIS-A-nhOxQ) in case you get stuck! The final challenge is not here; it is part of this week's assignment.
 
 ### Aggregating data
 
-* [Counting rows]()
-* [Grouping rows]()
+* [Counting and grouping rows](https://youtu.be/WttCJEATBqE)
 * [Reading and challenges](http://www.datacarpentry.org/sql-ecology-lesson/02-sql-aggregation.html)
 
 ### Joining tables and naming fields
@@ -47,6 +47,6 @@ There are 3 challenges to turn in this week. Although I am not requiring you to 
 
 1.  Challenge at the bottom of the [Basic Queries page](http://www.datacarpentry.org/sql-ecology-lesson/01-sql-basic-queries.html).
 2.  Challenge at the bottom of the [SQL Aggregation page](http://www.datacarpentry.org/sql-ecology-lesson/02-sql-aggregation.html).
-3.  Write a query that finds the average weight of each rodent species (i.e., only include species with Rodent in the taxa field). You will need to join the surveys and species tables. 
+3.  Write a query that finds the average weight of each rodent species (i.e., only include species with Rodent in the taxa field). You will need to join the surveys and species tables. This challenge is in the middle of the [joins and aliases page](http://www.datacarpentry.org/sql-ecology-lesson/03-sql-joins-aliases.html)
  
 Copy and paste the SQL statement for each challenge into a text file saved as week15_yourlastname.txt and attach that file to your submission. This Assignment is due on Friday of Week 15 \(April 22\) at 5 pm. Late assignments will receive a score of zero unless prior approval is granted.  
