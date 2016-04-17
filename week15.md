@@ -11,7 +11,7 @@ See [the bottom of this page](#assignment) for this weeks Challenge. The start p
 
 ### Preparation
 
-This week's videos and exercises are based on educational materials from [DataCarpentry](http://www.datacarpentry.org/). Create a directory to hold all your work for this week. We will also use this directory next week. It doesn't matter what it is called; I called mine learn_sql so that's what you'll see in the videos. The data files needed for the challenge can be [downloaded here](http://figshare.com/articles/Portal_Project_Teaching_Database/1314459). You want the CSV files surveys.csv, plots.csv and species.csv. I put these files in a subdirectory called data. 
+This week's videos and exercises are based on educational materials from [DataCarpentry](http://www.datacarpentry.org/). Create a directory to hold all your work for this week. We will also use this directory next week. It doesn't matter what it is called; I called mine learn_sql so that's what you'll see in the videos. The data files needed for the challenges can be [downloaded here](http://figshare.com/articles/Portal_Project_Teaching_Database/1314459). You want the CSV files surveys.csv, plots.csv and species.csv. I put these files in a subdirectory called data. 
 
 ### Introduction to SQL
 
@@ -29,12 +29,17 @@ This week's videos and exercises are based on educational materials from [DataCa
 ### Aggregating data
 
 * [Counting and grouping rows](https://youtu.be/WttCJEATBqE)
+* [Ordering and filtering aggregated results, and saving queries](https://youtu.be/J9Un-lHbfTY)
 * [Reading and challenges](http://www.datacarpentry.org/sql-ecology-lesson/02-sql-aggregation.html)
+* [Video with challenge solutions](https://youtu.be/gV8aJI_aLsA) in case you get stuck! The final challenge is not here; it is part of this week's assignment.
 
-### Joining tables and naming fields
+### Joining tables
 
-* [Joins and aliases]()
+Warning! The second challenge on this page is *hard*. Don't wrestle with it too long before looking at the solution video. Here's a hint: a query saved as a view can be used in the FROM clause of another query.
+
+* [Joining tables](https://youtu.be/yxQCsH-lWzA)
 * [Reading and challenges](http://www.datacarpentry.org/sql-ecology-lesson/03-sql-joins-aliases.html)
+* [Joining tables challenge solutions](https://youtu.be/INmeMgBWmXo)
 
 ### Extra practice (optional!)
 
