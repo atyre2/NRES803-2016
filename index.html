@@ -6,14 +6,12 @@ address: "3310 Holdrege Avenue, Lincoln, Nebraska"    # street address of worksh
 country: "US"    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "40.828505,-96.671770"     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: "Spring semester, 2016"  # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: "Tues 2:00 pm - 4:50 pm"  # human-readable time (e.g., "9:00 am - 4:30 pm")
-startdate: "2016-01-11"  # use YYYY-MM-DD format like "2015-01-01"
+humandate: "Fall semester, 2016"  # human-readable date (e.g., "Feb 17-18, 2020")
+humantime: "MW 10am - 11am, Friday 2:00 pm - 4:50 pm"  # human-readable time (e.g., "9:00 am - 4:30 pm")
+startdate: "2016-08-11"  # use YYYY-MM-DD format like "2015-01-01"
 instructor: ["Drew Tyre"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: []    # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "atyre2@unl.edu"    # contact email address for workshop organizer, such as "grace@hopper.org"
-etherpad:         # optional (insert the URL for your Etherpad if you're using one)
-eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 <!--
   HEADER
@@ -24,23 +22,6 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   And run 'tools/check' *before* committing to make sure that changes are good.
 -->
 
-<!--
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
--->
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 <h2 id="general">General Information</h2>
 
@@ -51,26 +32,12 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   the pitch.
 -->
 <p>
-  This is an experimental, semester long course on Sampling, Data Management 
-  and Visualization at the University of Nebraska-Lincoln. Any Nebraska University 
-  graduate student may enroll using NRES 898 Special Topics. I will 
-  be relying on materials from <a href="{{site.swc_site}}">Software Carpentry</a>
-  and <a href="http://www.datacarpentry.org">Data Carpentry</a>. The course 
-  is fully on-line, with synchronous help sessions every Tuesday afternoon at 2:00 pm.
-  This hands-on course will introduce the tools and concepts of reproducible research. 
-</p>
-<p>
-  <a href="{{site.swc_site}}">Software Carpentry</a>'s mission
-  is to help scientists and engineers get more research done in less
-  time and with less pain by teaching them basic lab skills for
-  scientific computing.  
-</p>
-<p align="center">
-  <em>
-    For more information on what we teach and why,
-    please see our paper
-    "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
-  </em>
+  This is a semester long course on Ecological Statistics at the University of Nebraska-Lincoln. Any Nebraska University 
+  graduate student may enroll using NRES 898 Special Topics. The course 
+  is fully on-line, with synchronous help sessions every Friday afternoon at 2:00 pm, as
+  well as Monday and Wednesday mornings at 10am-11am.
+  This hands-on course focuses on variations of the linear model and model selection. The 
+  goal is to equip students with the basic methods to analyse ecological data.
 </p>
 
 <!--
@@ -82,8 +49,10 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 <p id="who">
   <strong>Who:</strong>
   The course is aimed at graduate students from Nebraska University.
-  <strong>You don't need to have any previous knowledge of the tools that will
-    be presented at the workshop.</strong>
+  You should have a basic working knowledge of the statistical programming language R.
+  You should be comfortable with estimating a linear model with normally distributed data,
+  interpreting the results, and carrying out hypothesis tests on the overall model and 
+  individual coefficients.
 </p>
 
 <!--
@@ -102,7 +71,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
-  Online help sessions will use <a href="https://connect.unl.edu/data-management/">Adobe Connect</a>. 
+  Online help sessions will use <a href="https://connect.unl.edu/ecostat/">Adobe Connect</a>. 
 </p>
 {% endif %}
 
@@ -116,9 +85,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   a few specific software packages installed (listed
   <a href="#setup">below</a>). Participants should also have a USB headset with a microphone
   in order to participate in the online sessions effectively. The built-in 
-  microphone on a laptop is <em>not</em> sufficient. They are also required to abide by
-  Software Carpentry's
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a> and the UNL
+  microphone on a laptop is <em>not</em> sufficient. Students are required to abide by the UNL
   student <a href="http://stuafs.unl.edu/dos/code">code of conduct</a>.
   Students are expected to adhere to guidelines concerning academic dishonesty 
   outlined in Section 4.2 of University's Student Code of Conduct. Students are 
@@ -154,7 +121,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   for more information.
 </p>
 
-<hr/>
+<!--<hr/>
 <h2 id="assessment">Assessment</h2>
 <p>
   The primary goal of this course is skill building, but it <em>is</em> a
@@ -179,7 +146,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   I am doing this because I want to learn the best way to present this material, and to
   do that I need to try some experiments. 
 </p>
-
+-->
 <hr/>
 
 <!--
@@ -191,7 +158,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 -->
 <h2 id="schedule">Schedule</h2>
 
-<p>
+<!-- <p>
   Weeks where a challenge assignment is due are marked with '*'. Sessions that I plan to 
   do "live" are indicated with '!'.
 </p>
@@ -240,7 +207,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 
 
 <hr/>
-
+ -->
 <!--
   SYLLABUS
 
@@ -264,7 +231,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a Software Carpentry workshop, you will need
+  To succeed in this course you will need
   access to the software described below. In addition, you will
   need an up-to-date web browser.
 </p>
