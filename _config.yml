@@ -1,8 +1,8 @@
 #--------------------------------------------------------------------------------
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
-workshop_repo   : "http://github.com/atyre2/2016-01-11-lincoln"
-workshop_site   : "http://atyre2.github.io/2016-01-11-lincoln"
+workshop_repo   : "http://github.com/atyre2/NRES803-2016"
+workshop_site   : "http://atyre2.github.io/NRES803-2016"
 #--------------------------------------------------------------------------------
 # Standard Software Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------
