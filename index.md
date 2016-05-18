@@ -91,7 +91,7 @@ contact: "atyre2@unl.edu"    # contact email address for workshop organizer, suc
   outlined in Section 4.2 of University's Student Code of Conduct. Students are 
   encouraged to contact the instructor for clarification of these guidelines if 
   they have questions or concerns. The SNR policy on Academic Dishonesty is available 
-  <a href=http://snr.unl.edu/employeeinfo/information/employeehandbook-single.asp?infocode=S162>here</a>.<br>
+  <a href="http://snr.unl.edu/employeeinfo/information/employeehandbook-single.asp?infocode=S162">here</a>.<br>
   <strong>Students with disabilities:</strong>
   Students with disabilities are encouraged to contact the instructor for a 
   confidential discussion of their individual needs for academic accommodation. 
@@ -158,28 +158,29 @@ contact: "atyre2@unl.edu"    # contact email address for workshop organizer, suc
 -->
 <h2 id="schedule">Schedule</h2>
 
-<p>
-  Weeks where a challenge assignment is due are marked with '*'. Sessions that I plan to 
-  do "live" are indicated with '!'.
-</p>
+
 
 <div class="row">
   <div class="col-md-6">
     <h3>Module 1</h3>
     <table class="table table-striped">
-      <tr> <td>Week 1 -- Aug 22</td>  <td><a href='week1.html'>Introductions, setup, Review linear models I</a></td> </tr>
-      <tr> <td>Week 2 -- Aug 29</td>  <td><a href='week2.html'>Review of linear models II</a> </td> </tr>
-      <tr> <td>Week 3 -- Sep 5</td>  <td><a href='week3.html'>Model Selection & Power</a> *!</td> </tr>
-      <tr> <td>Week 4 -- Sep 12</td>  <td><a href='week4.html'>Model Selection AIC, BIC and friends</a> *</td> </tr>
+      <tr> <td>Week</td> <td>Topic</td> <td>Assignment Due</td></tr>
+      <tr> <td>Week 1 -- Aug 22</td>  <td><a href='week1.html'>Introductions, setup, Review linear models I</a></td> <td></td></tr>
+      <tr> <td>Week 2 -- Aug 29</td>  <td><a href='week2.html'>Review of linear models II</a> </td> <td></td> </tr>
+      <tr> <td>Week 3 -- Sep 5</td>  <td><a href='week3.html'>Model Selection & Power</a> </td> <td>Linear Models</td></tr>
+      <tr> <td>Week 4 -- Sep 12</td>  <td><a href='week4.html'>Model Selection AIC, BIC and friends</a></td><td>Preproposal</td></tr>
     </table>
   </div>
+</div>
+<div class="row">
   <div class="col-md-6">
     <h3>Module 2</h3>
     <table class="table table-striped">
-      <tr> <td>Week 5 -- Sep 19</td>  <td><a href='week5.html'>Generalized Linear Models</a></td> </tr>
-      <tr> <td>Week 6 -- Sep 26</td>  <td><a href='week6.html'>Generalized Additive Models</a></td> </tr>
-      <tr> <td>Week 7 -- Oct 3</td>  <td><a href='week7.html'>What's the smoothest path?</a></td> </tr>
-      <tr> <td>Week 8 -- Oct 10</td>  <td><a href='week8.html'>Regression trees and forests</a></td> </tr>   
+      <tr> <td>Week</td> <td>Topic</td> <td>Assignment Due</td></tr>
+      <tr> <td>5 -- Sep 19</td>  <td><a href='week5.html'>Generalized Linear Models</a></td><td>Nematodes</td> </tr>
+      <tr> <td>6 -- Sep 26</td>  <td><a href='week6.html'>Generalized Additive Models</a></td><td>Mt Lofty Birds</td> </tr>
+      <tr> <td>7 -- Oct 3</td>  <td><a href='week7.html'>What's the smoothest path?</a></td> <td>Preproposal Discussion</td></tr>
+      <tr> <td>8 -- Oct 10</td>  <td><a href='week8.html'>Regression trees and forests</a></td><td></td> </tr>   
     </table>
   </div>
 </div>
@@ -188,29 +189,29 @@ contact: "atyre2@unl.edu"    # contact email address for workshop organizer, suc
   <div class="col-md-6">
     <h3>Module 3</h3>
     <table class="table table-striped">
-      <tr> <td>Week 9 -- Oct 17</td>  <td>FALL BREAK No Class</td> </tr>
-      <tr> <td>Week 10 -- Oct 24</td>  <td><a href='week10.html'>Mixing it up I</a></td> </tr>
-      <tr> <td>Week 11</td>  <td><a href='week11.html'>Mixing it up II</a></td> </tr>
-      <tr> <td>Week 12</td>  <td><a href='week12.html'>Choosing a mixed model</a></td> </tr>
+      <tr> <td>Week</td> <td>Topic</td> <td>Assignment Due</td></tr>
+      <tr> <td>9 -- Oct 17</td>  <td>FALL BREAK No Class</td><td></td> </tr>
+      <tr> <td>10 -- Oct 24</td>  <td><a href='week10.html'>Mixing it up I</a></td> <td>What's the Best Shape</td></tr>
+      <tr> <td>11 -- Oct 31</td>  <td><a href='week11.html'>Mixing it up II</a></td><td>Project Intro/methods</td> </tr>
+      <tr> <td>12 -- Nov 7</td>  <td><a href='week12.html'>Choosing a mixed model</a></td><td></td> </tr>
     </table>
   </div>
+</div>
+<div class="row">
   <div class="col-md-6">
     <h3>Module 4</h3>
     <table class="table table-striped">
-      <tr> <td>Week 14</td>  <td><a href='week14.html'>Creating Metadata</a></td> </tr>
-      <tr> <td>Week 15</td>  <td><a href='week15.html'>Introduction to SQL</a></td> </tr>
-      <tr> <td>Week 16</td>  <td><a href='week16.html'>Random sampling in space</a></td> </tr>
-      <tr> <td></td>  <td></td> </tr>
+      <tr> <td>Week</td> <td>Topic</td> <td>Assignment Due</td></tr>
+      <tr> <td>13 -- Nov 14</td>  <td><a href='week13.html'>Time to Event Data</a></td><td>Herbivore Shadows</td> </tr>
+      <tr> <td>14 -- Nov 21</td>  <td><a href='week14.html'>THANKSGIVING BREAK</a></td> <td></td></tr>
+      <tr> <td>15 -- Nov 28</td>  <td><a href='week15.html'>Multivariate I</a></td><td></td> </tr>
+      <tr> <td>16 -- Dec 5</td>  <td><a href='week16.html'>Multivariate II</a></td> <td></td></tr>
     </table>
   </div>
 </div>
 
 
 <hr/>
-
-## This is a test
-
-Can I just have this file in Markdown?
 
 <!--
   SYLLABUS
