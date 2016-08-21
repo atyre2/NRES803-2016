@@ -1,3 +1,9 @@
+---
+title: NRES 803 Lab 1
+layout: page
+root: .
+---
+
 The goal of this week's lab is just getting your feet wet, remembering how to use R, what a linear model is and getting some answers out. Like all labs, I expect you to submit an R Markdown file that I can compile to html. You should assume any data files are in a subdirectory called "data". Your file should *not* echo the code used. Answer the numbered questions in text, referring to graphical and tabular output as needed. You may use base graphics or ggplot2, according to your preference.
 
 This dataset in package *faraway* contains the number of plant species on each of 30 islands in the Galapagos Archipelago, along with some attributes of each island. The species-area relationship suggests that the number of species should vary with area according to
