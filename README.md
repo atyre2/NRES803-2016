@@ -1,3 +1,5 @@
+https://zenodo.org/badge/DOI/10.5281/zenodo.4773972.svg
+
 # workshop-template
 
 This repository is [Software Carpentry](http://software-carpentry.org)'s
